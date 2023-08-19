@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+
+    <h1 id="title">survey form</h1>
+    <p id="description">building a survey form for freeCodeCamp responsive web design project</p>
+    <form id="survey-form">
+      <fieldset>
+      <label id="name-label">Enter Your Name: 
+        <input type="text" id="name" placeholder="Type in name" required>
+      </label>
+      <label id="email-label">Enter Your Email: 
+        <input type="email" id="email" placeholder="Type in email" required>
+      </label>
+      <label id="number-label">Enter Your Age:
+        <input id="number" type="number" min="18" max="90" placeholder="Age">
+      </label>
+      </fieldset>
+
+      <fieldset>
+        <label id="select-label">Select Specialty:
+          <select id="dropdown">
+            <option value="front-end">Front End Developer</option> 
+            <option value="back-end">Back End Developer</option>
+          </select>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <label> <input type="radio" name="radio" value="front-end-radio"> Frontend Developer</label>
+        <label> <input type="radio" name="radio" value="back-end-radio"> Backend Developer</label>
+      </fieldset>
+
+      <fieldset>
+        <label id="checkbox-label">Frontend Development
+          <input type="checkbox" value="front-end-checkbox">
+        </label>
+        <label>Backend Development
+          <input type="checkbox" value="back-end-checkbox">
+        </label>
+        <label>Fullstack Development
+          <input type="checkbox" value="full-stack-checkbox">
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <label id="textarea-label">Comments:
+          <textarea id="comments"></textarea>
+        </label>
+      </fieldset>
+
+      <label id="submit-label">
+        <button id="submit">submit</button>
+      </label>
+    </form>
+    
+</body>
+</html>
