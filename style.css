@@ -5,8 +5,9 @@ body {
     width: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
-    background: url(img/paper-787636.jpg) no-repeat center center;
+    background: url(img/background-2462426.jpg) no-repeat center center;
     background-size: cover;
+    background-attachment: fixed;
 
 }
 
@@ -52,12 +53,13 @@ input:focus, textarea:focus {
 button {
     padding: .5rem 0;
     text-transform: uppercase;
-    color: #fff;
-    background-color: #000;
+    color: #000;
+    background-color: #fff;
     border: none;
     width: 50%;
     margin-bottom: 1rem;
     cursor: pointer;
+    border-radius: 1rem;
 }
 
 button:hover, 
@@ -71,4 +73,19 @@ button:active {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    margin: 10px 0 0 0;
+    padding: .3rem 0;
+    border-radius: .3rem;
+}
+
+.inline {
+    width: unset;
+    vertical-align: middle;
+    margin: 0 0.5em 0 0;
 }
