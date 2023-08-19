@@ -28,6 +28,8 @@
           <select id="dropdown">
             <option value="front-end">Front End Developer</option> 
             <option value="back-end">Back End Developer</option>
+            <option value="full-stack">Fullstack Developer</option>
+            <option value="mobile-developer">Mobile App Developer</option>
           </select>
         </label>
       </fieldset>
@@ -47,13 +49,17 @@
         <label>Fullstack Development
           <input type="checkbox" value="full-stack-checkbox" class="inline">
         </label>
-      </fieldset>
-
-      <fieldset>
-        <label id="textarea-label">Comments:
-          <textarea id="comments" class="inline"></textarea>
+        <label>Mobile App Development
+            <input type="checkbox" value="mobile-app-checkbox" class="inline">
+        </label>
+        <label>Data Science
+            <input type="checkbox" value="data-science-checkbox" class="inline">
         </label>
       </fieldset>
+
+        <label id="textarea-label">Comments:
+          <textarea id="comments" class="inline" rows="5"></textarea>
+        </label>
 
       <label id="submit-label">
         <button id="submit">submit</button>
